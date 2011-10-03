@@ -16,7 +16,7 @@ All you have to do is to:
 3.    instantiate GeSHi,
 4.    instantiate the handler with the relative path of the file and an instance of GeSHi.
 
-Then configure the PHP exception handler.
+Then configure the PHP handler.
 
 ```php
 <?php
@@ -64,9 +64,9 @@ ErrorHandler is call with "trigger_error".
 
 ## Mechanism
 
-When an exception or an error is caught, Handler does his job and traces the exceptions' stack.
+When an exception or an error is caught, Handler does his job and traces the exceptions' stack (there is no stack with errors).
 
 
 ## License
 
-ExceptionHandler is licensed under the MIT license.
+Handler is licensed under the MIT license.
