@@ -2,7 +2,7 @@
 
 // Load ExceptionHandler
 $libraryPath = './library/Handler/';
-require_once $libraryPath.'loadLibrary.php';
+require_once $libraryPath.'loadHandler.php';
 require_once $libraryPath.'geshi/geshi.php';
 
 $geshi              = new GeSHi();
